@@ -1,9 +1,9 @@
 # Exercícios
 ## Variáveis
 1. Uma empresa separou os seus ganhos dos meses nas seguintes variáveis:
-- var janeiro =  100
-- var fevereiro = 300
-- var março = 90
+-let janeiro =  100
+-let fevereiro = 300
+-let março = 90
 
 Ela precisa da sua ajuda para saber o total do lucro adquirido. 
 Sua missão é usar os operadores junto com as variáveis para fazer esse cálculo e use o console.log para imprimir o resultado!
@@ -23,10 +23,10 @@ console.log(valorTotal);
 <br>
 
 2. Em uma escola, um professor quer calcular a média de notas dos seus alunos. Ele tem separado em variáveis cada nota dos trabalhos realizados por cada aluno:
-- var trabalhoDeHistoria = 8.0
-- var trabalhoDeMatematica = 7.0
-- var trabalhoDeCiencia = 10
-- var trabalhoDeGeografia = 9.5
+-let trabalhoDeHistoria = 8.0
+-let trabalhoDeMatematica = 7.0
+-let trabalhoDeCiencia = 10
+-let trabalhoDeGeografia = 9.5
 
 O professor já sabe que a média é calculada com a soma de todas as notas e dividindo pelo total. 
 
@@ -230,7 +230,7 @@ Diante desse cenário, escreva um código que de acordo com a variável idade in
 
  17. Uma empresa mandou uma lista contendo os números mensais de tudo o que ela faturou, 
 e nosso trabalho é ajudá-los a criar um relatório que exiba em quantos meses eles tiveram o saldo negativo.
-- var listaDeGanhos = [10, 30, -10, -5, -1, 40]
+-let listaDeGanhos = [10, 30, -10, -5, -1, 40]
 <br>
 Com base no array acima, que está disponível no código, faça um loop que verifique quantos meses tiveram valores negativos e armazene a contagem uma variável chamada totalNegativos que também está disponível no código.
 
@@ -255,7 +255,7 @@ Vamos lá?
 
 
 ```javascript
-for( var i = 0; i <= 20; i++){
+for(let i = 0; i <= 20; i++){
     if(i%2!=0){
         continue
     }else{
@@ -269,7 +269,7 @@ for( var i = 0; i <= 20; i++){
 19. Uma empresa separou em uma lista, os valores dos lucros mensais. 
 Com isso você terá no código um array com o seguinte nome: listaDeLucro 
 contendo em cada posição o valor de recebido de cada mês!
-- var listaDeLucro = [100, 30, 300, -10, 600, 10] <br>
+-let listaDeLucro = [100, 30, 300, -10, 600, 10] <br>
 Seu trabalho será criar um loop que calcule o valor total baseado nessa lista, 
 e coloque o valor em uma variável já existente no código chamada: lucroTotal*/
 
@@ -309,9 +309,9 @@ quando encontrar deve imprimir “Encontrei o número!” e parar o loop!
 
 ```javascript
 var cartela = [8, 13, 18, 22, 42, 49]
-  var numeroSorteado = 42
+ let numeroSorteado = 42
 
-  for( var i = 0; i < cartela.length; i++){
+  for(let i = 0; i < cartela.length; i++){
     if(cartela[i] == numeroSorteado){
       console.log("Encontrei o número!")
       break
@@ -330,7 +330,7 @@ Acrescente um espaço antes do sobrenome, por exemplo: “ Sousa”.
 ```javascript
 var familia = ["Joana", "Felipe", "Gabriela", "Carlos", "Pedro", "Bruno"]
 
-for( var i = 0; i < familia.length; i++){
+for(let i = 0; i < familia.length; i++){
     if(familia[i] == "Pedro"){
         console.log(familia[i] + " Sousa")
         continue
@@ -359,7 +359,7 @@ Afinal os valores depois do X (1,2,3,4…) são os valores que mudam de acordo c
 
 25. Uma agência de carros quer exibir seu catálogo para os clientes.
 Eles exportaram os nomes dos carros no formato de array que se chama listaDeCarros:<br>
-- var listaDeCarros = [ "Fox", "Uno", "Gol", "Astra", "Fiesta"]<br> 
+-let listaDeCarros = [ "Fox", "Uno", "Gol", "Astra", "Fiesta"]<br> 
 Seu trabalho é percorrer essa array exibindo os nomes dos carros:<br>
 “Nome do Carro: Fox”<br>
 “Nome do Carro: Uno”<br>
@@ -370,7 +370,7 @@ e que use o console.log para exibir o nome dos carro de acordo com o exemplo aci
 
 26. Um sacolão montou uma lista com as frutas que eles vendem, 
 e de acordo com a fruta que o usuário busca eles querem informar se existe a fruta na lista ou não! 
-- var listaDeFrutas = [ "Uva", "Banana",  "Manga", "Cajá", "Pinha"]<br>
+-let listaDeFrutas = [ "Uva", "Banana",  "Manga", "Cajá", "Pinha"]<br>
 Você deverá criar um loop que verifique se a fruta contida na variável busca existe na lista de frutas do sacolão. Se existe basta exibir uma mensagem, “Sim, temos a fruta banana disponível”. 
 Use a variável busca para exibir o nome da fruta nessa mensagem de forma dinâmica.
 
