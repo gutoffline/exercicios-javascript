@@ -11,11 +11,11 @@ Sua missão é usar os operadores junto com as variáveis para fazer esse cálcu
 **RESOLUÇÃO**
 
 ```javascript
-var janeiro =  100
-var fevereiro = 300
-var marco = 90
+let janeiro =  100
+let fevereiro = 300
+let marco = 90
 
-var valorTotal = janeiro + fevereiro + marco;
+let valorTotal = janeiro + fevereiro + marco;
 console.log(valorTotal);
 
 ```
@@ -52,7 +52,7 @@ Utilize a condicional if else para verificar se a variável idade é maior que 6
 **RESOLUÇÃO**
 
 ```javascript
-var idade = 40
+let idade = 40
 
 if (idade > 65){
     console.log("Você já pode se aposentar")
@@ -74,8 +74,8 @@ Caso o usuário não tenha a idade mínima para dirigir imprima somente o cumpri
 - “Olá, NOME_DO_USUARIO_AQUI”*/
 
 ```javascript
-var nome = "João"
-var idade = 17
+let nome = "João"
+let idade = 17
 
 console.log("Olá, "+nome)
 if(idade>=18){
@@ -103,7 +103,7 @@ Para esse exercício leve em consideração as seguintes informações:
 **RESOLUÇÃO**
 
 ```javascript
-var diaSemana = 'sabado'
+let diaSemana = 'sabado'
 
 if(diaSemana != 'sabado' && diaSemana != 'domingo'){
     console.log("Você pode ir ao banco")
@@ -127,7 +127,7 @@ Para isso precisamos de uma variável saldo que guarda um número decimal(float)
 - Mensagem para brasileiro: “Você poderia apresentar seu CPF, por favor?”
 
 ```javascript
-var estrangeiro = true
+let estrangeiro = true
 
 if(estrangeiro){
   console.log("Você poderia apresentar seu RNE, por favor?")
@@ -148,7 +148,7 @@ if(estrangeiro){
 
 
 ```javascript
-var ladosIguais = 0
+let ladosIguais = 0
 
 if(ladosIguais == 3){
     console.log("Equilátero")
@@ -178,7 +178,7 @@ Faça uma condição que supra a necessidade acima, se o usuário puder comprar 
 Sua missão é verificar se o valor da variável é par ou ímpar utilizando o operador relacional módulo (%). Imprima “Par” ou “Ímpar” de acordo com o resultado.
 
 ```javascript
-var numeroDaSorte = 18
+let numeroDaSorte = 18
 if (numeroDaSorte % 2 == 0){
     console.log("Par")
 }else{
@@ -205,8 +205,8 @@ Caso ele não possa: “Desculpe, você não atende os requisitos para usar o br
 Vale dizer que para esse exercício você terá duas variáveis: usuarioAltura e usuarioIdade
 
 ```javascript
-var usuarioAltura = 170
-var usuarioIdade = 21
+let usuarioAltura = 170
+let usuarioIdade = 21
 
 //seu código aqui
 if(usuarioAltura > 150 || usuarioIdade >= 21){
@@ -235,11 +235,11 @@ e nosso trabalho é ajudá-los a criar um relatório que exiba em quantos meses 
 Com base no array acima, que está disponível no código, faça um loop que verifique quantos meses tiveram valores negativos e armazene a contagem uma variável chamada totalNegativos que também está disponível no código.
 
 ```javascript
-var listaDeGanhos = [10, 30, -10, -5, -1, 40]
-var totalNegativos = 0
+let listaDeGanhos = [10, 30, -10, -5, -1, 40]
+let totalNegativos = 0
 
 //seu loop aqui:
-for(var i = 0; i< listaDeGanhos.length; i++){
+for(let i = 0; i< listaDeGanhos.length; i++){
     if(listaDeGanhos[i] < 0){
         totalNegativos++;
     }
@@ -274,11 +274,11 @@ Seu trabalho será criar um loop que calcule o valor total baseado nessa lista,
 e coloque o valor em uma variável já existente no código chamada: lucroTotal*/
 
 ```javascript
-var listaDeLucro = [100, 30, 300, -10, 600, 10]
-var lucroTotal = 0;
+let listaDeLucro = [100, 30, 300, -10, 600, 10]
+let lucroTotal = 0;
 
 //seu loop aqui
-for(var i = 0; i < listaDeLucro.length; i++){
+for(let i = 0; i < listaDeLucro.length; i++){
     lucroTotal += listaDeLucro[i]
 }
 ```
@@ -288,9 +288,9 @@ for(var i = 0; i < listaDeLucro.length; i++){
 20. Temos um array em uma variável chamada baralho e precisamos de um script que procure a carta “Rei” entre as cartas do baralho. Assim que encontrar o “Rei” pare o loop utilizando break  e exiba um console.log a seguinte frase: Encontrei o Rei!
 
 ```javascript
-var baralho = ["Ás", "Dama", "Rei", "Valete"]
+let baralho = ["Ás", "Dama", "Rei", "Valete"]
 
-for(var i = 0; i< baralho.length; i++){
+for(let i = 0; i< baralho.length; i++){
   if(baralho[i] == "Rei"){
     console.log("Encontrei o Rei!")
     break
@@ -308,7 +308,7 @@ quando encontrar deve imprimir “Encontrei o número!” e parar o loop!
 
 
 ```javascript
-var cartela = [8, 13, 18, 22, 42, 49]
+let cartela = [8, 13, 18, 22, 42, 49]
  let numeroSorteado = 42
 
   for(let i = 0; i < cartela.length; i++){
@@ -328,7 +328,7 @@ Dica: Utilize for  e continue para criar a solução.
 Acrescente um espaço antes do sobrenome, por exemplo: “ Sousa”.
 
 ```javascript
-var familia = ["Joana", "Felipe", "Gabriela", "Carlos", "Pedro", "Bruno"]
+let familia = ["Joana", "Felipe", "Gabriela", "Carlos", "Pedro", "Bruno"]
 
 for(let i = 0; i < familia.length; i++){
     if(familia[i] == "Pedro"){
