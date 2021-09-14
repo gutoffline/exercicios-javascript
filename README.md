@@ -44,6 +44,7 @@ Crie uma variável para guardar cada informação, depois faça a concatenação
 
 <br>
 
+## Estrutura de decisão
 5. Precisamos verificar se uma pessoa pode se aposentar com base na idade. 
 Utilize a condicional if else para verificar se a variável idade é maior que 65 e imprima uma mensagem para cada caso:
 - Condição verdadeira : “Você já pode se aposentar”
@@ -227,6 +228,7 @@ Diante desse cenário, escreva um código que de acordo com a variável idade in
 
 <br>
 
+## Estrutura de repetição
 
  17. Uma empresa mandou uma lista contendo os números mensais de tudo o que ela faturou, 
 e nosso trabalho é ajudá-los a criar um relatório que exiba em quantos meses eles tiveram o saldo negativo.
