@@ -380,3 +380,88 @@ Use a variável busca para exibir o nome da fruta nessa mensagem de forma dinâm
 
 <br>
 
+27 - Os engenheiros de uma montadora estão projetando o computador de bordo de um carro. Eles precisam de uma função que possa calcular a autonomia atual do automóvel, em outras palavras, quantos quilômetros ele consegue andar com a quantidade de combustível atual. 
+
+A autonomia pode ser obtida multiplicando a quantidade de combustível pelo rendimento. Será que você consegue ajudá-los?
+
+Escreva uma função chamada autonomia:
+```javascript
+function autonomia(quantidadeDeCombustivel, rendimento){
+
+	...
+
+}
+```
+
+Essa função deve receber dois parâmetros:
+
+- O primeiro, que represente a quantidade de combustível que está no tanque
+- O segundo, que represente o rendimento do automóvel
+
+A função deve retornar a autonomia do automóvel.
+
+Lembre-se: a autonomia do automóvel pode ser obtido multiplicando o rendimento pela quantidade de combustível presente no tanque.
+
+A tela deve ficar parecido com o **CÁLCULO DE AUTONOMIA** disponível nesse link: https://www.figma.com/file/uRMnOizK4wQEsn6CGcPVGm/Untitled?node-id=1%3A2
+
+<br>
+
+28 - A lavanderia DigitalLaundry lava roupa por quilo. Ela cobra dos seus clientes R$ 5,00 por cada quilo de roupa suja. Atualmente, eles usam um caderninho e uma calculadora para descobrir o valor que cada cliente tem a pagar. Precisamos automatizar essa empresa!
+
+Escreva uma função calculaValorDevido
+```javascript
+function calculaValorDevido(pesoDaRoupaSuja) {
+
+	…
+
+}
+```
+
+A função recebe como parâmetro o peso de roupa suja (em quilos) e deve retornar o valor a ser cobrado do cliente.
+
+A tela deve ficar parecido com o **LAVANDERIA** disponível nesse link: https://www.figma.com/file/uRMnOizK4wQEsn6CGcPVGm/Untitled?node-id=1%3A2
+
+<br>
+
+29 - Depois de nossa consultoria, a lavanderia DigitalLaundry percebeu que poderia deixar a sua cobrança mais sofisticada e justa. Ela decidiu cobrar R$10,00 fixo, a título de taxa de serviço (independente da quantidade de roupa), mais R$ 3,00 por quilo de roupa suja. 
+
+Reescreva a função calculaValorDevido
+
+```javascript
+function calculaValorDevido(pesoDeRoupaSuja){
+
+	...
+
+}
+```
+Essa função recebe como único parâmetro a quantidade de roupa suja. 
+
+Ela deve retornar o valor a ser cobrado do cliente usando a nova política de preços.
+
+
+<br>
+
+30 - Crie uma função chamada cartaoDeVisitas, ela deverá imprimir o seu nome em conjunto com sobrenome, o seu telefone, profissão e e-mail!
+
+A tela deve ficar parecido com o **CARTÃO DE VISITA** disponível nesse link: https://www.figma.com/file/uRMnOizK4wQEsn6CGcPVGm/Untitled?node-id=1%3A2
+
+31 - Um mercado tem uma lista de produtos, que eles querem exibir para todo novo cliente que chegar! 
+
+Como o processo é um pouco trabalhoso e repetitivo eles precisam do seu conhecimento em funções para ajudá-los.
+
+Eles já tem um código, porém toda vez eles precisam reescrever o código para exibir ao cliente:
+
+```javascript
+
+var lista = [ 'Leite', 'tomate', 'Biscoito', 'Tapioca']
+
+for(var i = 0; i < lista.length; i++){
+
+	console.log(lista[i])
+
+}
+```
+Seu trabalho é melhorar esse código, para ficar mais simples utilizá-lo e acrescente imagens a lista de produtos. 
+Precisamos que você transforme o código acima em uma função chamada listarProdutos.
+
+A tela deve ficar parecido com o **LISTA DE PRODUTOS** disponível nesse link: https://www.figma.com/file/uRMnOizK4wQEsn6CGcPVGm/Untitled?node-id=1%3A2
